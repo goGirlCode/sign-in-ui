@@ -1,0 +1,54 @@
+html {
+    font-size: 62%;
+}
+
+body {
+    background: #2d343e;
+    display: flex;
+    height: 100vh;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-login {
+    background-color: whitesmoke;
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+    height: 450px;
+    border-radius: 12px;
+}
+.form-control, .btn{
+    font-size: 1.5rem;
+    width:90%;
+    border-radius: 5px;
+    padding:1.5rem;
+}
+.form-control{
+    border:1px solid #ced4da;
+    box-sizing: border-box;
+    outline: 0;
+    transition: border 0.15s box-shadow 0.15s;
+}
+.form-control:focus{
+    border:1px solid #ef776c;
+    box-shadow: 0 0 0 3px #dc847c;
+}
+.btn{
+    color:white;
+    font-size: 1.8rem;
+    background-color: #ef776c;
+    border:none;
+    transition: opacity 0.15s;
+    cursor: pointer;
+    
+}
+.btn:hover{
+   opacity:0.90;
+
+}
+.form-group{
+   margin:1rem;
+}
